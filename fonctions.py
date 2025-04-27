@@ -82,5 +82,21 @@ def name(prenom='dave'):
 message = name('Luis')
 print(message)
 
+### Class Truc
+
+class Truc:
+    
+# on definit instantiation __init__()
+    def __init__(self, name, age):
+        self.age = age
+        self.name = name
+    
+    def present(self):
+     print(f"Mon est : {self.name}, et j'ai {self.age} ans")
+    
+    def dog_age(self):
+        return self.age * 7
+    
+
 
 
